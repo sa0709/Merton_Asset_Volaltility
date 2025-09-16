@@ -1,27 +1,27 @@
 # Merton_Asset_Volaltility
 
-This project estimates **asset values and asset volatilities of firms using the Merton Model**. It uses Python and processes financial data from an Excel input file, outputting the results to another Excel file.[1][2]
+This project estimates **asset values and asset volatilities of firms using the Merton Model**. It uses Python and processes financial data from an Excel input file, outputting the results to another Excel file.
 
 ***
 
 ### Overview
 
-This repository implements a quantitative finance method to solve for a company's asset value and asset volatility using the Merton structural credit risk model. It leverages numerical methods (via `fsolve`) to invert observed equity market data to estimate unobservable firm-level asset characteristics.[1]
+This repository implements a quantitative finance method to solve for a company's asset value and asset volatility using the Merton structural credit risk model. It leverages numerical methods (via `fsolve`) to invert observed equity market data to estimate unobservable firm-level asset characteristics.
 
 ***
 
 ### How It Works
 
-- Reads company financials from `Input.xlsx` (equity value, net debt, equity volatility, risk-free rate).[2]
-- For each row, solves the nonlinear equations from the Merton Model for asset value and volatility using Python and `scipy.stats` and `scipy.optimize`.[1]
+- Reads company financials from `Input.xlsx` (equity value, net debt, equity volatility, risk-free rate).
+- For each row, solves the nonlinear equations from the Merton Model for asset value and volatility using Python and `scipy.stats` and `scipy.optimize`.
 - Saves enhanced data with calculated columns to `Output.xlsx`.
 
 ***
 
 ### File Descriptions
 
-- **Final.ipynb**: Jupyter Notebook containing all code implementation for the Merton Model estimation.[1]
-- **Input.xlsx**: Excel file listing required company financial data.[2]
+- **Final.ipynb**: Jupyter Notebook containing all code implementation for the Merton Model estimation.
+- **Input.xlsx**: Excel file listing required company financial data.
 - **Output.xlsx**: Generated Excel file with appended asset values and asset volatilities for each company.
 
 ***
@@ -69,7 +69,4 @@ For questions or contributions, please raise an issue or submit a pull request.
 
 ***
 
-**Enjoy estimating corporate asset values with the Merton Model!**[2][1]
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/83303335/ad217a6b-5836-4df2-b7fd-c21e5d5c7155/Final.ipynb)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/83303335/9ed81aff-ef5b-422c-ba1d-2af2cb5478c9/Input.xlsx)
+**Enjoy estimating corporate asset values with the Merton Model!**
