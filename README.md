@@ -52,14 +52,14 @@ The notebook solves the following using the Merton option-pricing equations:
 - $$ \sigma_E = N(d_1) \frac{V}{E} \sigma_V $$
 - Where:
     - $$ E $$: Market value of equity
-    - $$ D $$: Net debt (face value of liabilities)
+    - $$ D $$: Net debt
     - $$ \sigma_E $$: Equity volatility
     - $$ r $$: Risk-free rate
     - $$ V $$: Asset value
     - $$ \sigma_V $$: Asset volatility
     - $$ T $$: Time horizon (set to 1 year)
 
-Numerical methods are used to invert these equations for $$ V $$ and $$ \sigma_V $$.[1]
+Numerical methods are used to invert these equations for $$ V $$ and $$ \sigma_V $$.
 
 ***
 
